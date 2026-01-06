@@ -31,31 +31,23 @@ This repository contains a Logisim implementation of a **22-bit CPU datapath** i
 
 ## Screenshots
 
-Place images in `assets/screenshots/` and keep filenames consistent with the list below.
+### Main top-level integration
+![Main top-level integration](assets/screenshots/main.png)
 
-- **Main top-level integration**
-  - `assets/screenshots/MAIN.png`
-  - Shows the full integration of control, datapath, and supporting wiring.
+### 22-bit MIPS Datapath
+![22-bit MIPS Datapath](assets/screenshots/mips-datapath.png)
 
-- **22-bit MIPS Datapath**
-  - `assets/screenshots/22 BIT MIPS DATAPATH.png`
-  - Highlights the CPU datapath flow: register file → ALU → muxes → write-back, plus branch/jump routing.
+### 22-bit ALU
+![22-bit ALU](assets/screenshots/alu.png)
 
-- **22-bit ALU**
-  - `assets/screenshots/22 BIT ALU.png`
-  - ALU implementation and operation selection (add/sub/logic/shift/slt), plus status outputs (e.g., BEQ/BNE/overflow flags if used).
+### 22-bit Register File
+![22-bit Register File](assets/screenshots/register-file.png)
 
-- **22-bit Register File**
-  - `assets/screenshots/22 BIT REGISTER.png`
-  - Multi-register storage with write enable and two read ports (READ DATA 1 / READ DATA 2).
+### Control Unit
+![Control Unit](assets/screenshots/control-unit.png)
 
-- **Control Unit**
-  - `assets/screenshots/CONTROL UNIT.png`
-  - Opcode decoding into datapath control signals (RegDst, RegWrite, ALUSrc, MemRead, MemWrite, MemToReg, Jump, Branch, ALUOp).
-
-- **ALU Control**
-  - `assets/screenshots/ALU CONTROL.png`
-  - Combines `ALUOp` + function bits to generate the final ALU operation select signals.
+### ALU Control
+![ALU Control](assets/screenshots/alu-control.png)
 
 
 ---
@@ -172,6 +164,7 @@ python3 assembler/assembler.py
 4. Use **Load Image** (or equivalent) and load: 
 ```text
 examples/outputs.raw
+```
 5. Step the clock to execute instructions.
 
 
