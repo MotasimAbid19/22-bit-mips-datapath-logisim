@@ -1,0 +1,7 @@
+addi r2 r0 10
+addi r3 r0 2
+beq r3 r2 4
+sub r2 r2 r3
+sw r4 r0 2
+j 3
+sw r3 r0 1
