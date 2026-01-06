@@ -2,7 +2,7 @@
 
 A custom **22-bit MIPS-like single-cycle CPU datapath** built in **Logisim**, including a **control unit**, **ALU**, and **register file**, plus a **Python assembler** that generates **Logisim-compatible ROM initialization (`v2.0 raw`)** files.
 
-> Course project (CSE 332 — Computer Organization and Architecture). Replace/adjust course references if required by your institution.
+> Course project (CSE 332 — Computer Organization and Architecture).
 
 ---
 
