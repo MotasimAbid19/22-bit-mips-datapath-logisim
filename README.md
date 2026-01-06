@@ -57,9 +57,6 @@ Place images in `assets/screenshots/` and keep filenames consistent with the lis
   - `assets/screenshots/ALU CONTROL.png`
   - Combines `ALUOp` + function bits to generate the final ALU operation select signals.
 
-> After you push the repo, you can render these directly by adding Markdown image links (example):
->
-> `![Main](assets/screenshots/MAIN.png)`
 
 ---
 
@@ -88,7 +85,7 @@ Recommended structure:
 ├─ .gitignore
 ├─ LICENSE
 └─ README.md
-
+```
 
 ## Instruction Set / Encoding (22-bit)
 
@@ -98,15 +95,15 @@ The design uses a compact 22-bit instruction format.
 
 ```text
 [ opcode:3 ][ rs:5 ][ rt:5 ][ rd:5 ][ funct:4 ]
-
+```
 ### I-type (22 bits)
 ```text
 [ opcode:3 ][ rs:5 ][ rd:5 ][ imm:9 ]
-
+```
 ### J-type (22 bits)
 ```text
 [ opcode:3 ][ target:19 ]
-
+```
 
 ## Opcodes and Function Bits (from assembler)
 
@@ -144,7 +141,7 @@ Ensure these mappings match the Logisim control logic. If you modify control wir
 
 ```text
 circuits/FINAL_PROJECT_1.circ
-
+```
 
 ### 2) Python requirements (assembler)
 - Python 3.x installed (no external dependencies assumed)
@@ -159,7 +156,7 @@ The assembler converts an input assembly file (example: `examples/inputs.txt`) i
 Typical run (from repository root):  
 ```text
 python3 assembler/assembler.py
-
+```
 
 **Notes:**
 - Current script behavior may assume specific filenames/paths (depending on how it was written for the course workflow).
