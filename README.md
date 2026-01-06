@@ -227,11 +227,11 @@ Recommended: **MIT** for a lightweight, permissive license suitable for educatio
 
 - CSE 332 — Computer Organization and Architecture 
 - Logisim tooling used for circuit design and simulation
-- Special thanks to https://github.com/TimeWithPotato
+- Special thanks to [TimeWithPotato](https://github.com/TimeWithPotato)
 
 ---
 
 ## Contact
 
-- **Author:** Motasim Abid — Motasimabid19@gmail.com  
-- **2nd Author:** Naima Zaman Roshni — naima.zaman@northsouth.edu
+- **Author:** [Motasim Abid](https://github.com/MotasimAbid19) — Motasimabid19@gmail.com  
+- **2nd Author:** [Naima Zaman Roshni](https://github.com/NaimaRoshni) — naima.zaman@northsouth.edu
