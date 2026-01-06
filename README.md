@@ -216,10 +216,7 @@ Open an issue or PR with a clear description of the change and how it was tested
 ---
 
 ## License
-
-TBD.
-
-Recommended: **MIT** for a lightweight, permissive license suitable for educational tooling. If your coursework policy requires restrictions, replace with the appropriate license or add a note.
+MIT
 
 ---
 
